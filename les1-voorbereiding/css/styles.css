@@ -1,0 +1,79 @@
+main {
+   max-width: 984px;
+   padding-right: 20px;
+   padding-left: 20px;
+   margin: auto;
+}
+
+main article footer {
+    background-color: lightgray; 
+    font-size: 1.15em;
+    color:lightsalmon;
+    text-align: center;
+}
+
+h2 {
+    font-size: 3em;
+    color: cornflowerblue;
+    text-align: center;
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+p {
+    font-size: 1.25em;
+    color: lightgreen;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+#mainheader {
+    background-color: lightcoral;
+    height: 50px;
+}
+
+nav li{
+    display:inline-block;
+    padding: 12px;
+}
+nav a{
+    
+    font-size: 1.25em;
+} 
+
+a:hover, a:active {
+    text-decoration: underline;} 
+
+.img {
+    width: 300px;
+    height: 300px;
+    margin: 50px;
+    float: left;
+    background-color: lightcyan;
+
+}
+
+.achtergrond {
+    background-image: url(../img/foto1@2.jpg);
+    background-size: cover;
+}
+
+span {
+    text-decoration: line-through;
+}
+@media screen and (max-width: 900px) {
+    body {
+        background-color: grey;
+    }
+  
+}
+
+
+@media screen and (max-width: 800px) {
+     .img {
+        width: 200px;
+        height: 200px;
+        margin: 20px;
+    }
+    }
+
+
